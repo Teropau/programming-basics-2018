@@ -23,13 +23,13 @@ namespace ifTask1
             }
 
             if (number == 0)
-                Console.WriteLine("Numero on nolla!");
+                Console.WriteLine($"Numero {number} on nolla!");
 
             else if (number < 0)
-                Console.WriteLine("Numero on negatiivinen!");
+                Console.WriteLine($"Numero {number} on negatiivinen!");
 
             else
-                Console.WriteLine("Numero on positiivinen!");
+                Console.WriteLine($"Numero {number} on positiivinen!");
                     
            
             
