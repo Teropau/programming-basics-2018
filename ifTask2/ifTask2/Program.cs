@@ -31,7 +31,8 @@ namespace ifTask1
             else
                 Console.WriteLine($"Numero {number} on negatiivinen!");
 
-
+            //Console.WriteLine("numero {0} on negatiivinen", number);
+            //Console.WriteLine("numero" + number + " on negatiivinen");
 
         }
     }
