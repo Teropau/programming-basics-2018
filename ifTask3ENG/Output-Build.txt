@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: ifTask3ENG, Configuration: Debug Any CPU ------
+1>ifTask3ENG -> C:\dev\condition-tasks\programming-basics-2018\ifTask3ENG\ifTask3ENG\bin\Debug\netcoreapp2.1\ifTask3ENG.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
