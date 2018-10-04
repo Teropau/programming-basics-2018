@@ -18,7 +18,7 @@ namespace TicketCost
             {
                 ale = 45;
             }
-            Console.WriteLine($"{ale}");
+
             Console.WriteLine("Are you a member of MTK? Type your ansver: YES or NO.");
             string MTK;
             MTK = Console.ReadLine();
@@ -61,7 +61,6 @@ namespace TicketCost
             {
                 hinta = 16;
             }
-            Console.WriteLine($"{ale}");
 
             hinta = (100 - ale) * hinta / 100;
 

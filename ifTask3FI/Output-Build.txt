@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: ifTask3FI, Configuration: Debug Any CPU ------
-1>ifTask3FI -> C:\dev\condition-tasks\programming-basics-2018\ifTask3FI\ifTask3FI\bin\Debug\netcoreapp2.1\ifTask3FI.dll
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
