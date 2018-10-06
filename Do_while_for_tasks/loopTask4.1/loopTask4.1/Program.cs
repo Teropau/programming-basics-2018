@@ -17,6 +17,7 @@ namespace RndTask1
             {
                 rndNumber = rnd.Next(0, 100);
                 Console.WriteLine($"{i + 1}. {rndNumber}         {Math.Sqrt(rndNumber)}");
+
             }
 
         }
