@@ -24,7 +24,7 @@ namespace TicketCost
             MTK = Console.ReadLine();
             if (MTK.ToLower() == "yes" || MTK == "y" || MTK == "ye" || MTK == "yep")
             {
-                ale = 15;
+                ale += 15;
             }
 
             Console.WriteLine("Are you a serviceman? Type your answer: YES or NO.");
