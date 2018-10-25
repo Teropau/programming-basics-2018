@@ -21,29 +21,12 @@ namespace Self_evaluationTask4
                 }
                 list.Add(num);
             }
-            int caseSwitch = 1;
-            for (int i = 0; i < 4; i++)
-            {
-                decimal firstInput = decimal.Round(list[0], 2, MidpointRounding.AwayFromZero);
-                decimal secondInput = decimal.Round(list[1], 2, MidpointRounding.AwayFromZero);
-                switch (caseSwitch)
-                {
-                    case 1:
-                        Console.WriteLine($"{firstInput} + {secondInput} = {decimal.Round(firstInput + secondInput, 2, MidpointRounding.AwayFromZero)}");
-                        break;
-                    case 2:
-                        Console.WriteLine($"{firstInput} - {secondInput} = {decimal.Round(firstInput - secondInput, 2, MidpointRounding.AwayFromZero)}");
-                        break;
-                    case 3:
-                        Console.WriteLine($"{firstInput} * {secondInput} = {decimal.Round(firstInput * secondInput, 2, MidpointRounding.AwayFromZero)}");
-                        break;
-                    case 4:
-                        Console.WriteLine($"{firstInput} / {secondInput} = {decimal.Round(firstInput / secondInput, 2, MidpointRounding.AwayFromZero)}");
-                        break;
-                }
-                caseSwitch++;
-            }
-                Console.ReadLine();
+            decimal firstInput = decimal.Round(list[0], 2, MidpointRounding.AwayFromZero);
+            decimal secondInput = decimal.Round(list[1], 2, MidpointRounding.AwayFromZero);
+            Console.WriteLine($"{firstInput} + {secondInput} = {decimal.Round(firstInput + secondInput, 2, MidpointRounding.AwayFromZero)}");
+            Console.WriteLine($"{firstInput} - {secondInput} = {decimal.Round(firstInput - secondInput, 2, MidpointRounding.AwayFromZero)}");
+            Console.WriteLine($"{firstInput} * {secondInput} = {decimal.Round(firstInput * secondInput, 2, MidpointRounding.AwayFromZero)}");
+            Console.WriteLine($"{firstInput} / {secondInput} = {decimal.Round(firstInput / secondInput, 2, MidpointRounding.AwayFromZero)}");
         }
     }
 }
