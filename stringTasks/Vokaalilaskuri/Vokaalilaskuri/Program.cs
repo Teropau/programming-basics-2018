@@ -23,7 +23,6 @@ namespace Vokaalilaskuri
                 }
             }            
             Console.WriteLine($"Syötteessä {input} oli {vocalsCount} vokaalia.");
-
         }
     }
 }
