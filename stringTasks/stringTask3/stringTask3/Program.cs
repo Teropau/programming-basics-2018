@@ -7,7 +7,7 @@ namespace stringTask3
         static void Main(string[] args)
         {
             Console.WriteLine("ohjelma laskee 'L' kirjainten määrän.");
-            Console.Write("Syötä juttua:");
+            Console.Write("Syötä merkkijono:");
             string s = "lol";
             s = Console.ReadLine().ToUpper();
             int sum = 0;

@@ -6,7 +6,9 @@ namespace stringTask1
     {
         static void Main(string[] args)
         {
-            string s = "Hello World!";
+            Console.WriteLine("Ohjelma laskee merkit");
+            Console.Write("Syötä merkkijono:");
+            string s = Console.ReadLine();
             Console.WriteLine(s);          
             Console.WriteLine($"Syötteessä on ({s.Length}) merkkiä.");
         }

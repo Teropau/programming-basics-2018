@@ -6,7 +6,9 @@ namespace stringTask2
     {
         static void Main(string[] args)
         {
-            string s="Hello World!";
+            Console.WriteLine("Ohjelma korvaa 'e' kirjaimet '@' merkeillä.");
+            Console.Write("Syötä merkkijono:");
+            string s = Console.ReadLine();
             Console.WriteLine(": before :");
             Console.WriteLine(s);
             Console.WriteLine(": after :");
